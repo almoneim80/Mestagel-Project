@@ -1,0 +1,215 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+.header{
+
+}
+
+.header .main_nav{
+    background-color: brown;
+    height: 100px;
+}
+
+nav {
+    background: #fff;
+    box-shadow: 0px 5px 0px #dedede;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    color: #fff;
+  }
+
+  .header nav ul li{
+    display: inline-block;
+}
+
+.header .main_nav ul{
+    list-style: none;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+
+nav.main_nav ul li a{
+  position: relative;
+}
+
+nav.main_nav ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #8B6508;
+  height: 5px;
+}
+
+nav.main_nav ul li a:hover:after {
+    width: 100%;
+    height: 20%;
+  }
+
+/*logo*/
+  nav.main_nav .logo img{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+
+/*section*/
+.orders_section{
+    height: 100%;
+    padding-bottom: 10%;
+}
+
+/*boxs*/
+
+.orders_section .current_orders{
+    width: 39%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px solid #8B6508;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.orders_section p{
+    margin-left: 30%;
+    margin-top: 6%;
+    font-weight: bold;
+}
+
+/*if items not exist*/
+.orders_section .current_orders .title1{
+    text-align: center;
+    margin-right: 20%;
+    font-weight: bold;
+}
+
+.orders_section .imgg img{
+    width:100%;
+    height:150px;
+    object-fit:contain;
+    margin-top:5px;
+}
+
+.orders_section .current_orders .title2{
+    text-align: center;
+    margin-right: 20%;
+    font-weight: bold;
+}
+
+.orders_section .current_orders .title3{
+    text-align: center;
+    margin-right: 20%;
+    font-weight: bold;
+}
+
+/*if items exist*/
+.orders_section .current_order{
+    width: 39%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px solid #8B6508;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    justify-content: baseline;
+	display: flex;
+}
+
+.orders_section .current_order .order{
+    display: flex;
+}
+
+
+.orders_section .current_order .location{
+    display: flex;
+}
+
+.orders_section .current_order .past_imgg img{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.orders_section .current_order .past_time p{
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: small;
+}
+
+.orders_section .current_order .past_price p{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: medium;
+}
+
+/*past orders*/
+.orders_section .past_orders{
+    width: 39%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px solid #8B6508;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    justify-content: baseline;
+}
+
+.orders_section .past_orders .order{
+    display: flex;
+}
+
+
+.orders_section .past_orders .location{
+    display: flex;
+}
+
+.orders_section .past_orders .past_imgg img{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.orders_section .past_orders .past_time p{
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: small;
+}
+
+.orders_section .past_orders .past_price p{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: medium;
+}

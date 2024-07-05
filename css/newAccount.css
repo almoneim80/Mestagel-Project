@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+.header{
+
+}
+
+.header .main_nav{
+    background-color: brown;
+    height: 100px;
+}
+
+nav {
+    background: #fff;
+    box-shadow: 0px 5px 0px #dedede;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    color: #fff;
+  }
+
+  .header nav ul li{
+    display: inline-block;
+}
+
+.header .main_nav ul{
+    list-style: none;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+
+nav.main_nav ul li a{
+  position: relative;
+}
+
+nav.main_nav ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #8B6508;
+  height: 5px;
+}
+
+nav.main_nav ul li a:hover:after {
+    width: 100%;
+    height: 20%;
+  }
+
+/*logo*/
+  nav.main_nav .logo img{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+
+/*section*/
+.newAccount_section{
+    height: 100%;
+    padding-bottom: 10%;
+}
+
+
+/*boxs*/
+.newAccount_section .sign_form{
+  width:50%;
+	border: 1px solid #070049;
+	  padding-top:15px; 
+	  padding-bottom:15px; 
+	  display:flex;
+	flex-direction:column;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.newAccount_section .sign_form input{
+
+ border: 1px solid #070049;
+  width:75%;
+  padding: 7px;
+  background-color: unset;
+  border-radius: 8px;
+  margin-top:5px;
+    margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+.newAccount_section .sign_form  label{
+  background-color: #070049;
+  width:75%;
+  padding: 7px;
+  background-color: unset;
+  border-radius: 8px;
+  margin-top:5px;
+    margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+
+.newAccount_section .sign_form button{
+  background-color: #8B6508;
+  width:18%;
+  padding: 7px;
+  border-radius: 8px;
+   border: 1px solid #B5D1DC;
+  margin-top:2%;
+    margin-left: auto;
+  margin-right: auto;
+  display:block;
+  box-shadow:rgba(0, 0 ,0 ,0.35) 0px 5px 15px;
+}

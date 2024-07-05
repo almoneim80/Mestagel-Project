@@ -1,0 +1,296 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+.header{
+
+}
+
+.header .main_nav{
+    background-color: brown;
+    height: 100px;
+}
+
+nav {
+    background: #fff;
+    box-shadow: 0px 5px 0px #dedede;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    color: #fff;
+  }
+
+  .header nav ul li{
+    display: inline-block;
+}
+
+.header .main_nav ul{
+    list-style: none;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+
+nav.main_nav ul li a{
+  position: relative;
+}
+
+nav.main_nav ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #8B6508;
+  height: 5px;
+}
+
+nav.main_nav ul li a:hover:after {
+    width: 100%;
+    height: 20%;
+  }
+
+/*logo*/
+  nav.main_nav .logo img{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+
+
+.checkout_section{
+    height: 100%;
+    padding-bottom: 10%;
+}
+
+.checkout_section .scroll{
+background:#F5F5F5;
+padding:3px;
+display:flex;
+padding-left:43%
+}
+
+.checkout_section .scroll .btn1{
+background:#F5F5F5;
+width:30px;
+height:30px;
+border-radius:50%;
+border: 2px solid #FFDE59;
+background:#FFB90F;
+margin-left:5%;
+}
+
+.checkout_section .scroll .btn2{
+background:#F5F5F5;
+width:30px;
+height:30px;
+border-radius:50%;
+border: 2px solid #FFDE59;
+background:white;
+margin-left:5%;
+}
+
+.checkout_section .scroll .btn3{
+background:#F5F5F5;
+width:30px;
+height:30px;
+border-radius:50%;
+border: 0px solid #F5F5F5;
+background:#E0E0E0;
+margin-left:5%;
+}
+
+.checkout_section .box{
+    width: 32%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+	box-shadow:rgba(0,0,0.35) 0px 5px 15px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.checkout_section .box .title{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+	text-align:center;
+	background: #FEF1F7;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+.checkout_section .box .title p{
+	color:red;
+	font-weight:500;
+	
+}
+.checkout_section .box .content{
+	width: 99%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px solid #FFB90F;	
+	padding-bottom:30px;
+}
+
+.checkout_section .box .content .food{
+	display:flex;
+     width: 89%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+	box-shadow:rgba(0,0,0,0.15) 0px 5px 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.checkout_section .box .content .food .item_class{
+	display:flex;
+}
+
+
+.checkout_section .box .content .food .item_class input{
+	width:40px;;
+	height:22px;
+}
+/*
+.checkout_section .food .item_class img{
+	
+}
+
+.checkout_section .box .content .food .item_class3{
+	margin-left:250px;
+	margin-top:45px;
+}
+
+
+.checkout_section .food .item_class3 img{
+	width:15px;
+	height:15px;
+}
+
+.checkout_section .p_food{
+	 margin-left: 30%;
+	 margin-top: 5%;
+    color:#AEAEAE;
+}
+
+.checkout_section .food{
+	 width: 89%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+	box-shadow:rgba(0,0,0,0.15) 0px 5px 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+*/
+.checkout_section .food .item{
+	 width: 89%;
+    height: 80%;
+}
+
+
+
+
+
+
+
+
+.checkout_section .box .content .Drink{
+	display:flex;
+}
+
+.checkout_section .box .content .Drink .item{
+	width: 89%;
+    height: 80%;
+}
+.checkout_section .box .content .Drink .item_class_d1{
+	margin-left:290px;
+	margin-top:45px;
+}
+
+.checkout_section .Drink .item_class_d1 img{
+	width:15px;
+	height:15px;
+}
+
+.checkout_section .box .content .Drink .item_class_d2{
+	margin-left:240px;
+	margin-top:45px;
+}
+
+.checkout_section .Drink .item_class_d2 img{
+	width:15px;
+	height:15px;
+}
+
+.checkout_section .p_Drink{
+	 margin-left: 30%;
+	 margin-top: 5%;
+    color:#AEAEAE;
+}
+.checkout_section .Drink{
+	 width: 89%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+	box-shadow:rgba(0,0,0,0.35) 0px 5px 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.checkout_section .box  input{
+border: 2px solid #FFDE59;
+margin-left:20px;
+width: 90%;
+height: auto	;
+padding-bottom:2%;
+border-radius: 4px;
+}
+
+.checkout_section .box  button{
+ background-color: #FFB90F;
+ border: 0px solid #FFB90F;
+ box-shadow:rgba(0,0,0.35) 0px 5px 15px;
+	color: black;
+	border-radius:20px;
+	width:52%;
+    padding: 7px;
+    margin-left: 25%;
+    margin-top: 5%;
+	font-weight:700;
+}
+
+.checkout_section .box  a{
+color: black;
+text-decoration:none;
+}
